@@ -1,5 +1,10 @@
-@font-face {font-family: "buffon"; src: local('font/buffon-regular.ttf'),format(".ttf") }
+@font-face {font-family: "buffon"; src: url('font/buffon-regular.ttf'),format(".ttf") }
 @font-face {font-family: "helvetica-regular"; src: local('font/helvetica.ttf'),format(".ttf"); }
 @font-face {font-family: "helvetica-bold"; src: local('font/helvetica-bold.ttf'),format(".ttf"); }
 @font-face {font-family: "helvetica-light"; src: local('font/helvetica-light.ttf'),format(".ttf"); }
 @font-face {font-family: "helvetica-boldoblique"; src: local('font/helvetica-boldoblique.ttf'),format(".ttf"); }
+
+
+p {
+  margin-bottom: 3em;
+}
