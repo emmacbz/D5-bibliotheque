@@ -1,8 +1,5 @@
 
 
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
-@import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-
 body {
 	font-family: 'helvetica', cursive !important;
   background: #FDE3A7; /*CAPE HONEY*/
@@ -197,7 +194,7 @@ background-color: white;
 max-width: 45%;
 padding: 2%;
 padding-top: 3%;
-padding-bottom: 2%;
+padding-bottom: 1%;
 margin-left: 48%;
 margin-top: 10%;
 line-height:170%;
@@ -263,8 +260,18 @@ display: block;
 .lettrine p::first-letter {
   font-size: 600%;
   float: left;
-  padding-bottom: 1em;
-padding-top: 1em;
+line-height: 0.80;
+padding-right: 0.1em;
+
+
+}
+
+.lettrine2 p::first-letter {
+  font-size: 600%;
+  float: left;
+line-height: 0.82;
+padding-right: 0.1em;
+padding-top: 0em;
 
 }
 
